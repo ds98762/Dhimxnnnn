@@ -26,7 +26,7 @@ import config
 from FallenMusic import BOT_USERNAME
 
 close_key = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
+    [[InlineKeyboardButton(text="Cʟᴏsᴇ", callback_data="close")]]
 )
 
 
@@ -37,6 +37,7 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="II", callback_data="pause_cb"),
             InlineKeyboardButton(text="‣‣I", callback_data="skip_cb"),
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
+            InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Chxting"),
         ]
     ]
 )
